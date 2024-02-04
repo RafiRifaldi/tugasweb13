@@ -1,0 +1,224 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<div class="w3-bar w3-black" style="display: flex; justify-content: center;">
+	<div class="w3-panel w3-bar-item" style="width: 25%; display: flex; justify-content:left;">
+		<img src="threomadnesss.jpeg" alt="" width="20%">
+	</div>	
+	<button class="w3-bar-item w3-button" onclick="open('Home')">Home </button>
+	<div class="w3-dropdown-hover w3-panel w3-bar-item">
+		<button class="w3-button">Tops</button>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<button class="w3-bar-item w3-button" onclick="openProduct('product1')">T-Shirt</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product2')">Hoodie</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product3')">WorkShirt</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product4')">Jacket</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product5')">Long Sleeve</button>
+		</div>
+	</div>
+	<div class="w3-dropdown-hover w3-panel w3-bar-item">
+		<button class="w3-button">Bottoms </button>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<button class="w3-bar-item w3-button" onclick="openProduct('product6')">Cargo Pant</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product7')">Short Pant</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product8')">Sweat Pant</button>
+		</div>
+	</div>
+	<div class="w3-dropdown-hover w3-panel w3-bar-item">
+			<button class="w3-button">Accessories </button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button" onclick="openProduct('product9')">Tote Bag</button>
+				<button class="w3-bar-item w3-button" onclick="openProduct('product10')">Key Chain</button>				
+			</div>
+	</div>
+</div>		
+
+<div class="slideshow-container">
+	<div class="mySlides fade">
+	  <img src="homcurhat.jpeg" style="width:100%">
+	</div>
+  
+	<div class="mySlides fade">
+	  <img src="susi.jpeg" style="width:100%">
+	</div>
+  
+	<div class="mySlides fade">
+	  <img src="redcar.jpeg" style="width:100%">
+	</div>
+</div>
+
+<div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+	<div class="w3-third w3-margin-bottom">
+	<img src="susi.jpeg" alt="T-Shirt Stussy" style="width:100%" class="w3-hover-opacity" >
+			<div class="w3-container w3-white">
+				<p><b>T-Shirt Stussy</b></p>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+			</div>
+	</div>
+	
+	<div class="w3-third w3-margin-bottom ">
+	<img src="redcar.jpeg" alt="T-shirt Carhatt" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+				<p><b>T-shirt Carhatt</b></p>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+			</div>
+	</div>
+	
+	<div class="w3-third w3-margin-bottom" style="height: 50%;">
+	<img src="blue.jpeg" alt="Spao T-Shirt" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+				<p><b>T-Shirt Spao</b></p>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+			</div>
+	</div>
+
+	<div class="w3-third w3-margin-bottom">
+		<img src="nike.jpeg" alt="T-Shirt Nike" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+					<p><b>T-Shirt Nike</b></p>
+					<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+				</div>
+		</div>
+		
+		<div class="w3-third w3-margin-bottom">
+		<img src="shorts.jpeg" alt="Shorts" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+					<p><b>Shorts</b></p>
+					<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+				</div>
+		</div>
+		<div class="w3-third w3-margin-bottom">
+		<img src="susis.jpeg" alt="T-shirt Stussy" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+					<p><b>T-Shirt Stussy</b></p>
+					<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+				</div>
+		</div>
+</div>
+
+<div id="product1" class="w3-card kota" style="display: none;">
+    <img src="produkcarhat.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product2" class="w3-card kota" style="display: none;">
+    <img src="abu.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+</div>
+
+  <div id="product3" class="w3-card kota" style="display: none;">
+    <img src="work.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product4" class="w3-card kota" style="display: none;">
+    <img src="detro.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product5" class="w3-card kota" style="display: none;">
+    <img src="longsleeve.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product6" class="w3-card kota" style="display: none;">
+    <img src="knee.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product7" class="w3-card kota" style="display: none;">
+    <img src="short.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product8" class="w3-card kota" style="display: none;">
+    <img src="joger.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product9" class="w3-card kota" style="display: none;">
+    <img src="totebag.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product10" class="w3-card kota" style="display: none;">
+    <img src="chain.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  
+
+<div class="w3-card-4">
+  <div class="w3-container w3-black">
+    <h2>Konfirmasi Pembayaran</h2>
+  </div>
+  <form class="w3-container" action="/action_page.php">
+    <p>      
+    <label class="w3-text-black"><b>Nomor Pembayaran</b></label>
+    <input class="w3-input w3-border w3-white" name="first" type="text"></p>
+    <p>      
+    <label class="w3-text-black"><b>Email</b></label>
+    <input class="w3-input w3-border w3-white" name="last" type="text"></p>
+    <p>
+    <button class="w3-btn w3-black">Pesan</button></p>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+<script>
+	let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function openProduct(openProduct) 
+        {
+            var i;
+            var x = document.getElementsByClassName("kota");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(openProduct).style.display = "block";
+        }
+</script>
+
+
+

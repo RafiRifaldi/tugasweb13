@@ -1,0 +1,344 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="icon" href="threomadnesss.jpeg">
+
+<div class="w3-bar w3-white w3-card-4" style="display: flex; justify-content: left;">
+	<div class="w3-panel w3-bar-item" style="width: 25%;">
+		<img src="hom.jpeg" alt="" width="25%">
+	</div>	
+	<button class="w3-bar-item w3-button" onclick="openProduct('Home')">Home </button>
+	<div class="w3-dropdown-hover w3-panel w3-bar-item" style="display: flex; justify-content: center;">
+		<button class="w3-button">Tops</button>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<button class="w3-bar-item w3-button" onclick="openProduct('product1')">T-Shirt</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product2')">Hoodie</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product3')">WorkShirt</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product4')">Jacket</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product5')">Long Sleeve</button>
+		</div>
+	</div>
+	<div class="w3-dropdown-hover w3-panel w3-bar-item" style="display: flex; justify-content: center;">
+		<button class="w3-button">Bottoms </button>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<button class="w3-bar-item w3-button" onclick="openProduct('product6')">Cargo Pant</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product7')">Short Pant</button>
+			<button class="w3-bar-item w3-button" onclick="openProduct('product8')">Sweat Pant</button>
+		</div>
+	</div>
+	<div class="w3-dropdown-hover w3-panel w3-bar-item" style="display: flex; justify-content: center;">
+			<button class="w3-button">Accessories </button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button" onclick="openProduct('product9')">Tote Bag</button>
+				<button class="w3-bar-item w3-button" onclick="openProduct('product10')">Key Chain</button>				
+			</div>
+	</div>
+	<div class="w3-panel" style="display: flex; justify-content: center;">
+		<button class="w3-button" onclick="openProduct ('aboutme')">About Me</button>
+	</div> 
+</div>		
+
+<div class="slideshow-container kota" id="Home" style="display: block;">
+	<div class="mySlides fade">
+	  <img src="cus.webp" style="width:100%">
+	</div>
+  
+	<div class="mySlides fade">
+	  <img src="pit.jpeg" style="width:100%">
+	</div>
+  
+	<div class="mySlides fade">
+	  <img src="suss.webp" style="width:100%">
+	</div>
+</div>
+
+<div class="w3-row-padding w3-padding-32 kota" id="home" style="margin:0 -16p; display: none;">
+	<div class="w3-third w3-margin-bottom" style="height: 40%;">
+	<img src="susi.jpeg" alt="T-Shirt Stussy" style="width:100%" class="w3-hover-opacity" >
+			<div class="w3-container w3-white">
+				<p><b>T-Shirt Stussy</b></p>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+			</div>
+	</div>
+	
+	<div class="w3-third w3-margin-bottom" style="height: 40%;">
+	<img src="redcar.jpeg" alt="T-shirt Carhatt" style="width:100%"" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+				<p><b>T-shirt Carhatt</b></p>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+			</div>
+	</div>
+	
+	<div class="w3-third w3-margin-bottom" style="height: 50%;">
+	<img src="blue.jpeg" alt="Spao T-Shirt" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+				<p><b>T-Shirt Spao</b></p>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+			</div>
+	</div>
+
+	<div class="w3-third w3-margin-bottom"> 
+		<img src="nike.jpeg" alt="T-Shirt Nike" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+					<p><b>T-Shirt Nike</b></p>
+					<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+				</div>
+		</div>
+		
+		<div class="w3-third w3-margin-bottom"> 
+		<img src="shorts.jpeg" alt="Shorts" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+					<p><b>Shorts</b></p>
+					<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+				</div>
+		</div>
+		<div class="w3-third w3-margin-bottom"> 
+		<img src="susis.jpeg" alt="T-shirt Stussy" style="width:100%" class="w3-hover-opacity">
+				<div class="w3-container w3-white">
+					<p><b>T-Shirt Stussy</b></p>
+					<button class="w3-button w3-black w3-margin-bottom" onclick="">View</button>
+				</div>
+		</div>
+</div>
+
+<div class="w3-row-padding w3-padding-32 kota" id="product1" style="display: none;">
+	<div class="w3-container" style="display: flex; justify-content: center;">
+		<div class="w3-container w3-center" style="width: 60%;">
+			<img src="armykaos.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">T-Shirt Carhatt Army</h2>			
+				<h2 style="font-size: 15px;">Rp.349.000</h2>
+				<h2 style="font-size: 15px;">S-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		  </div>
+		
+		  
+		  <div class="w3-container w3-center" style="width: 60%;">
+			<img src="green.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">T-Shirt Carhatt Green</h2>			
+				<h2 style="font-size: 15px;">Rp.349.000</h2>
+				<h2 style="font-size: 15px;">S-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		  </div>
+		
+		  <div class="w3-container w3-center" style="width: 60%;">
+			<img src="biru.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">T-Shirt Carhatt Blue</h2>			
+				<h2 style="font-size: 15px;">Rp.349.000</h2>
+				<h2 style="font-size: 15px;">S-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		</div>
+	
+		  <div class="w3-container w3-center" style="width: 60%;">
+			<img src="maronkaos.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">T-Shirt Carhatt Maroon</h2>			
+				<h2 style="font-size: 15px;">Rp.349.000</h2>
+				<h2 style="font-size: 15px;">S-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		  </div>
+	</div>
+</div>
+
+
+  <div id="product2" class="w3-card kota" style="display: none;">
+    <img src="abu.jpeg" width="20%">
+	<div class="w3-container w3-white">
+			<h2 style="font-size: 15px;">Hoodie Carhatt Grey</h2>			
+			<h2 style="font-size: 15px;">Rp.1.990.000</h2>
+			<h2 style="font-size: 15px;">M-XL</h2>
+			<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+</div>
+
+<div id="product3" class="w3-card kota" style="display: none;">
+    <img src="work.jpeg" width="20%">
+	<div class="w3-container w3-white">
+		<h2 style="font-size: 15px;">Work Shirt Army Carhatt</h2>			
+		<h2 style="font-size: 15px;">Rp.1.490.000</h2>
+		<h2 style="font-size: 15px;">M-XL</h2>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-32 kota" id="product4" style="display: none;">
+	<div class="w3-container" style="display: flex; justify-content: center;">
+		<div class="w3-container w3-center" style="width: 60%;"> 
+    		<img src="detro.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">Detroit Wash Grey Faded</h2>			
+				<h2 style="font-size: 15px;">Rp.3.490.000</h2>
+				<h2 style="font-size: 15px;">M-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+  		</div>
+
+		  <div class="w3-container w3-center" style="width: 60%;">
+			<img src="detro11.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">Detroit Brown Jacket</h2>			
+				<h2 style="font-size: 15px;">Rp.3.490.000</h2>
+				<h2 style="font-size: 15px;">M-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		  </div>
+	
+		  <div class="w3-container w3-center" style="width: 60%;">
+			<img src="detro1.jpeg" width="60%">
+			<div class="w3-container w3-white"> 
+				<h2 style="font-size: 15px;">Detroit Wash Grey Jacket</h2>			
+				<h2 style="font-size: 15px;">Rp.3.490.000</h2>
+				<h2 style="font-size: 15px;">M-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		  </div>
+
+		  <div class="w3-container w3-center" style="width: 60%;">
+			<img src="jc.jpeg" width="60%">
+			<div class="w3-container w3-white">
+				<h2 style="font-size: 15px;">Detroit Grey Jacket</h2>			
+				<h2 style="font-size: 15px;">Rp.3.490.000</h2>
+				<h2 style="font-size: 15px;">M-XL</h2>
+				<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+			</div>
+		  </div>
+	
+	</div>
+</div>
+
+
+		
+
+  
+
+  <div id="product5" class="w3-card kota" style="display: none;">
+    <img src="longsleeve.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+			<h2 style="font-size: 15px;">LongSleeve Black Carhatt</h2>			
+			<h2 style="font-size: 15px;">Rp.1.199.000</h2>
+			<h2 style="font-size: 15px;">M-XL</h2>
+			<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product6" class="w3-card kota" style="display: none;">
+    <img src="knee.jpeg" width="20%">
+	<div class="w3-container w3-white">
+		<h2 style="font-size: 15px;">Carhatt Kargo Double Knee</h2>			
+		<h2 style="font-size: 15px;">Rp.1.799.000</h2>
+		<h2 style="font-size: 15px;">31-38</h2>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product7" class="w3-card kota" style="display: none;">
+    <img src="short.jpeg" width="20%">
+	<div class="w3-container w3-white"> 
+		<h2 style="font-size: 15px;">Short Pant Black</h2>			
+		<h2 style="font-size: 15px;">Rp.799.000</h2>
+		<h2 style="font-size: 15px;">31-38</h2>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product8" class="w3-card kota" style="display: none;">
+    <img src="joger.jpeg" width="20%">
+	<div class="w3-container w3-white">
+		<h2 style="font-size: 15px;">Sweat Pant Carhatt</h2>			
+		<h2 style="font-size: 15px;">Rp.999.000</h2>
+		<h2 style="font-size: 15px;">31-38</h2>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product9" class="w3-card kota" style="display: none;">
+    <img src="totebag.jpeg" width="20%">
+	<div class="w3-container w3-white">
+		<h2 style="font-size: 15px;">Tote Bag Carhatt</h2>			
+		<h2 style="font-size: 15px;">Rp.699.000</h2>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  <div id="product10" class="w3-card kota" style="display: none;">
+    <img src="chain.jpeg" width="20%">
+	<div class="w3-container w3-white">
+		<h2 style="font-size: 15px;">Key Chain Carhatt</h2>			
+		<h2 style="font-size: 15px;">Rp.499.000</h2>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="">Buy</button>
+	</div>
+  </div>
+
+  
+
+<div class="w3-card-4 kota" style="width: 60%; display: none;" id="pembayaran">
+  <div class="w3-container w3-black">
+    <h2>Konfirmasi Pembayaran</h2>
+  </div>
+  <form class="w3-container" action="/action_page.php">
+    <p>      
+    <label class="w3-text-black"><b>Nomor Pembayaran</b></label>
+    <input class="w3-input w3-border w3-white" name="first" type="text"></p>
+    <p>      
+    <label class="w3-text-black"><b>Email</b></label>
+    <input class="w3-input w3-border w3-white" name="last" type="text"></p>
+    <p>
+    <button class="w3-btn w3-black">Pesan</button></p>
+  </form>
+</div>
+
+</body>
+</html>
+
+<div class="w3-container w3-center kota" style="width: 60%; display: none;" id="aboutme">
+	<img src="rfi.jpeg" width="40%">
+	<div class="w3-content w3-white"> 
+		<h2>NAMA:RAFI RIFALDI</h2>
+		<h2>NIM:10123467</h2>
+		<h2>KELAS:IF-11</h2>
+		
+		
+
+	</div>
+</div>
+
+
+
+
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function openProduct(openProduct) {
+	var i;
+    var x = document.getElementsByClassName("kota");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(openProduct).style.display = "block";
+}
+</script>
+
+
+
